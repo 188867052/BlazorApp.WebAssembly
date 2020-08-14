@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.1.201 AS build
 WORKDIR /src
 
 # Copy csproj and sln and restore as distinct layers
-COPY BlazorApp/*.csproj BlazorApp/
+COPY BlazorApp.WebAssembly/*.csproj BlazorApp.WebAssembly/
 COPY BlazorApp.sln .
 RUN dotnet restore
 
