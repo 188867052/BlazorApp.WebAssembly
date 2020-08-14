@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.WebAssembly", "BlazorApp1\BlazorApp.WebAssembly.csproj", "{05C93856-040D-4773-8052-D27DBC400893}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{ABB46F34-8DDB-4D9C-B4D5-B53044C6FCCB}"
 	ProjectSection(SolutionItems) = preProject
 		azure-pipelines.yml = azure-pipelines.yml
@@ -12,16 +10,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solutio
 		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.WebAssembly", "BlazorApp.WebAssembly\BlazorApp.WebAssembly.csproj", "{61672A67-9266-4DFE-A718-50904B992C72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{05C93856-040D-4773-8052-D27DBC400893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05C93856-040D-4773-8052-D27DBC400893}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05C93856-040D-4773-8052-D27DBC400893}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05C93856-040D-4773-8052-D27DBC400893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61672A67-9266-4DFE-A718-50904B992C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61672A67-9266-4DFE-A718-50904B992C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61672A67-9266-4DFE-A718-50904B992C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61672A67-9266-4DFE-A718-50904B992C72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
